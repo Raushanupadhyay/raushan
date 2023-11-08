@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url(/Conference_Management_System/home9.jpg);
+    background-image: url("home9.jpg");
     background-size: cover;
 }
 
@@ -159,7 +159,7 @@ a:hover:before{
     margin-left: -80px;
     height: 200px;
     width: 400px;
-    background-image: url(/Conference_Management_System/video-calling.jpg);
+    background-image: url("video-calling.jpg");
     background-size: cover;
     border-radius: 10px;
 }
@@ -169,7 +169,7 @@ a:hover:before{
     margin-right: 30px;
     height: 400px;
     width: 600px;
-    background-image: url(/Conference_Management_System/metting.jpg);
+    background-image: url("metting.jpg");
     background-size: cover;
     border-radius: 10px;
 }
@@ -187,7 +187,7 @@ a:hover:before{
     margin-left: 20px;
     height: 400px;
     width: 5000px;
-    background-image: url(/Conference_Management_System/about.jpeg);
+    background-image: url("about.jpeg");
     background-size: cover;
 }
 
