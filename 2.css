@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url(/Conference_Management_System/0x0.webp);
+    background-image: url("0x0.webp");
     background-size: cover;
     
 }
