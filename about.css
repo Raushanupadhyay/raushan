@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: slategrey;
+}
+
+.container{
+    
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.contain{
+    display: flex;
+    margin-left: 80px;
+    
+}
+
+.r{
+    color: red;
+    font-size: 80px;
+}
+
+.au{
+    color: white;
+    font-size: 50px;
+    margin-top: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+
+}
+
+a:before{
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    height: 3px;
+    width: 0;
+    background-color: red;
+    
+    transition: width 0.3s ease;
+}
+
+a:hover:before{
+    width: 100%;
+}
+
+.home{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left:30% ;
+}
+
+.about{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.service{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.portfolio{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.contact{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#about{
+    margin-top: 100px;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.about_image{
+    margin-top: 200px;
+    background-color: grey;
+    margin-left: 20px;
+    height: 400px;
+    width: 8000px;
+    background-image: url(/Conference_Management_System/about.jpeg);
+    background-size: cover;
+}
+
+.about_me{
+    margin-left: 150px;
+    margin-top: 50px;
+
+}
+
+.write_about{
+    color: yellow;
+    font-size: 50px;
+    
+}
+
+.word{
+
+    color: black;
+    font-size: 30px;
+    font-family: cursive;
+    font-style: italic;
+}
+
+.heading{
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+.heading span{
+    color: blue;
+    text-transform: uppercase;
+}
+
+.reivew .box{
+    border-radius: .5rem;
+    background-color: #333;
+    padding: 2rem;
+    position: relative;
+}
+
+.reivew .box .fa-quote-right{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    color: blue;
+    font-size: 5rem;
+}
+
+.reivew .box .user{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.reivew .box .user img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reivew .box .user h3{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.reivew .box .user span{
+    font-size: 1.5rem;
+    color: #eee;
+}
+
+.reivew .box p{
+    line-height: 2;
+    color: #fff;
+    padding: 5rem 0;
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
