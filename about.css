@@ -96,7 +96,7 @@ a:hover:before{
     margin-left: 20px;
     height: 400px;
     width: 8000px;
-    background-image: url(/Conference_Management_System/about.jpeg);
+    background-image: url("about.jpeg");
     background-size: cover;
 }
 
